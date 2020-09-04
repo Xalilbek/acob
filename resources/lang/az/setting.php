@@ -1,0 +1,76 @@
+<?php
+
+return [
+    'menu' => [
+        'home' => 'ANA SƏHİFƏ',
+        'about' => 'Haqqımızda',
+        'projects' => 'Layihələr',
+        'prepared_projects' => 'Hazır Layihələr',
+        'menziller' => 'Mənzillər',
+        'bagevler' => 'Bağ evləri',
+        'works' => 'İşlərimiz',
+        'design' => 'Dizayn',
+        'tss' => 'TSS',
+        'career' => 'Karyera',
+        'contact' => 'Əlaqə',
+        'social_media' => 'Sosial mediada biz'
+    ],
+    'popular_projects' => 'Layihələr',
+    'portfolio' => 'İşlərimiz',
+    'partners' => 'PARTNYORLARIMIZ',
+    'show_all_projects' => 'Bütün layihələrə bax',
+    'show_all_works' => 'Bütün işlərə bax',
+    'show_more' => 'Daha çox',
+    'tss' => 'ӘN ÇOX VERİLӘN SUALLAR',
+    'project' => 'LAYİHƏ',
+    'info' => 'MƏLUMAT',
+    'area' => 'Ümumi sahə',
+    'used_area' => 'İstifadə olunan sahə',
+    'room_count' => 'Otaq sayı',
+    'cash' => 'Nəğd qiymət',
+    'price' => 'Qiymət',
+    'payment_time' => 'Hissə-hissə ödəniş müddəti',
+    'first_payment' => 'İlkin ödəniş',
+    'payment_monthly' => 'Aylıq ödəniş',
+
+
+    'classification' => 'Təsnifat',
+
+    'concrete'                  => 'Beton',
+    'armatur'                   => 'Armatur',
+    'between_floors'            => 'Mərtəbəarası',
+    'roof'                      => 'Dam örtüyü	',
+    'roof_insulation'           => 'Dam izolyasiya	',
+    'masonry'                   => 'Hörgü daşı	',
+    'cement'                    => 'Sement',
+    'ceiling'                   => 'Tavan',
+    'interior_painting'         => 'Daxili rəngsaz işləri	',
+    'the_front_of_the_facade'   => 'Fasadın suvağı	',
+    'electrical_wiring'         => 'Elektrik naqilləri	',
+    'plumbing_products'         => 'Santexnika malları	',
+    'flooring'                  => 'Döşəmə	',
+    'warm_flooring'             => 'İsti döşəmə',
+    'window'                    => 'Pəncərə	',
+    'entrance_gate'             => 'Giriş qapısı',
+
+
+
+
+    'other_images' => 'ƏLAVƏ ŞƏKİLLƏR',
+    'other_projects' => 'OXŞAR LAYİHƏLƏR',
+    'apply' => 'CV göndər',
+    'teleb' => 'Namizədlərə tələblər',
+    'teklif' => 'Təklifimiz',
+    'send' => 'Göndər',
+    'close' => 'Bağla',
+    'for_area' => 'Sahəyə görə',
+    'for_price' => 'Qiymətə görə',
+    'for_room_count' => 'Otaq sayı',
+    'search' => 'Axtar',
+    'order' => 'Sıralama',
+    'price_desc' => 'Bahalıdan ucuza',
+    'price_asc' => 'Ucuzdan bahalıya',
+    'area_desc' => 'Böyük sahədən kiçik sahəyə',
+    'area_asc' => 'Kiçik sahədən böyük sahəyə',
+    'questions' => 'Ən çox verilən suallar'
+];

@@ -1,0 +1,126 @@
+.urek span:first-child
+
+{
+
+    position: relative;
+
+    cursor:pointer;
+
+    float:right;
+
+    line-height: 80px;
+
+}
+
+
+
+#urek_sayi
+
+{
+
+    color:#fff;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:8px;
+
+}
+
+.fav_show
+
+{
+
+    display:none;
+
+    background: #fff;
+
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,0.15);
+
+    border-radius: 8px;
+
+    position: absolute;
+
+    top: 70px;
+
+    right: 0;
+
+    width:28%;
+
+    height:30vh;
+
+    overflow-y:auto;
+
+    box-sizing: border-box;
+
+    user-select:none;
+
+}
+
+.likes_line
+
+{
+
+    padding-left:10px;
+
+}
+
+.ll_item
+
+{
+
+    width:100%;margin-top:10px;list-style:none;display:none;
+
+}
+
+.del_favo
+
+{
+
+    float:right;color:#000;font-size:30px;margin-top:10px;margin-right:10px;cursor:pointer;
+
+}
+
+.favourite_title
+
+{
+
+    color:#13233B;margin-left:10px;
+
+}
+
+.svg_s
+
+{
+
+    float:right;cursor:pointer;
+
+}
+
+.sorgu input[type=text]
+{
+    background-color: transparent;
+    width:30%;
+    outline: none;
+    border:1px solid #B09658;
+    padding:10px;
+    margin-top:15px;
+}
+.sorgu input[type=button]
+{
+    background-color: #B09658;
+    width:30%;
+    outline: none;
+    border:none;
+    color:#fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding:10px;
+    margin-top:15px;
+}
+#gonder11
+{
+    text-align:center;font-size:2vw;color:#B09658;
+}
+#h3sorgu
+{
+    text-align:center;font-size:1vw;color:#fff;display:none;margin-top:20px;
+}
+
+
+

@@ -1,0 +1,263 @@
+/* Admin Panel */
+.kullanimwrap {
+	margin: 25px 40px 0 20px;
+    max-width: 1050px;
+    font-size: 15px;
+
+}
+
+.kullanimwrap h1 {
+    margin: .2em 200px 0 0;
+    padding: 0;
+    color: #32373c;
+    line-height: 1.2em;
+    font-size: 2.8em;
+    font-weight: 400;
+}
+
+.kullanimwrap p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* Arayüz */
+
+.GENCSaglikDisabled{
+	display:none !important;
+}
+
+.GENCSaglikGoster{
+	display:block !important;
+}
+
+.GENCSaglikContainer{
+	width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.GENCSaglikContainer .formKutu {
+    margin-bottom: 25px;
+}
+
+.GENCSaglikContainer .formKutu .mar-10{
+	margin-bottom:10px !important;
+}
+
+.GENCSaglikContainer .formKutu p{
+	margin:0px !important;
+	font-weight: bold;
+}
+
+.GENCSaglikContainer #GSSonuc .GSDetay {
+	margin-top: 25px;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.GENCSaglikContainer .formKutu select, .GENCSaglikContainer .formKutu input[type="submit"], .GENCSaglikContainer .formKutu input[type="text"] {
+    padding: 0 12px;
+    width: auto;
+/*	width:274px;*/
+	height:50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    outline: 0;
+    -webkit-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -ms-transition: 0.3s ease all;
+    -o-transition: 0.3s ease all;
+    transition: 0.3s ease all;
+    margin-bottom: 5px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.GENCSaglikContainer.GSRenkli .formKutu select, .GENCSaglikContainer.GSRenkli .formKutu input[type="submit"] {
+	background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50px' height='50px'><polyline points='46.139,15.518 25.166,36.49 4.193,15.519' style='fill:white'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px top 15px;
+    background-size: 16px 16px;
+    color: #fff;
+
+	-webkit-appearance: none;
+	border: 0;
+}
+
+.GENCSaglikContainer.GSRenkli .formKutu input[type="text"],
+.GENCSaglikContainer.GSRenkli .formKutu input[type="text"]::placeholder {
+	color:#FFF;
+}
+
+.GENCSaglikContainer.GSRenkli .formKutu input[type="text"]:focus{border:none !important;}
+.GENCSaglikContainer.GSRenkli .formKutu input[type="text"]:focus::-webkit-input-placeholder { opacity: 0; }
+.GENCSaglikContainer.GSRenkli .formKutu input[type="text"]:focus:-moz-placeholder { opacity: 0; } /* FF 4-18 */
+.GENCSaglikContainer.GSRenkli .formKutu input[type="text"]:focus::-moz-placeholder { opacity: 0; } /* FF 19+ */
+.GENCSaglikContainer.GSRenkli .formKutu input[type="text"]:focus:-ms-input-placeholder { opacity: 0; } /* IE 10+ */
+
+
+.GENCSaglikContainer .veriInput{
+/*    width: 274px !important;*/
+	width: 262px !important;
+	-webkit-appearance: none;
+	border: 0;
+}
+
+.GENCSaglikContainer .formKutu select[id^="GSGun"] {
+/*    min-width: 64px;*/
+	min-width: 53px;
+    -moz-appearance: none;
+}
+
+.GENCSaglikContainer .formKutu select[id^="GSAy"] {
+    min-width: 110px !important;
+	-moz-appearance: none;
+}
+
+.GENCSaglikContainer .formKutu select[id^="GSYil"] {
+    min-width: 90px;
+    -moz-appearance: none;
+}
+
+.GENCSaglikContainer .formKutu select#GSsecenek {
+/*    max-width: 555px !important;*/
+	max-width: 530px !important;
+    width: 100% !important;
+}
+
+
+.GENCSaglikContainer .formKutu input#GShesapla {
+/*    width: 274px !important;*/
+	width: 262px !important;
+	height:50px !important;
+}
+
+/* Renkler İle İlgili Kodlar */
+
+.GSTuruncu select {
+    background-color: #e68c3d!important;
+}
+
+.GSTuruncu .veriInput {
+    background: #e68c3d!important;
+}
+
+.GSTuruncu #GShesapla, .GSTuruncu .GSDetay {
+    background: #d65601!important;
+}
+
+.GSKirmizi select {
+    background-color: #f44b3c!important;
+}
+
+.GSKirmizi .veriInput {
+    background: #f44b3c!important;
+}
+
+.GSKirmizi #GShesapla, .GSKirmizi .GSDetay {
+    background: #ea2716!important;
+}
+
+.GSLacivert select {
+    background-color: #297181!important;
+}
+
+.GSLacivert .veriInput {
+    background: #297181!important;
+}
+
+.GSLacivert #GShesapla, .GSLacivert .GSDetay {
+    background: #024959!important;
+}
+
+.GSMavi select {
+    background-color: #60b1e8!important;
+}
+
+.GSMavi .veriInput {
+    background: #60b1e8!important;
+}
+
+.GSMavi #GShesapla, .GSMavi .GSDetay {
+    background: #2e94d9!important;
+}
+
+.GSDenizMavi select {
+    background-color: #0ebee6!important;
+}
+
+.GSDenizMavi .veriInput {
+    background: #0ebee6!important;
+}
+
+.GSDenizMavi #GShesapla, .GSDenizMavi .GSDetay {
+    background: #0a9abb!important;
+}
+
+.GSSari select {
+    background-color: #f9d25a!important;
+}
+
+.GSSari .veriInput {
+    background: #f9d25a!important;
+}
+
+.GSSari #GShesapla, .GSSari .GSDetay {
+    background: #fac023!important;
+}
+
+.GSPembe select {
+    background-color: #fa5b75!important;
+}
+
+.GSPembe .veriInput {
+    background: #fa5b75!important;
+}
+
+.GSPembe #GShesapla, .GSPembe .GSDetay {
+    background: #e03753!important;
+}
+
+.GSMor select {
+    background-color: #886790!important;
+}
+
+.GSMor .veriInput {
+    background: #886790!important;
+}
+
+.GSMor #GShesapla, .GSMor .GSDetay {
+    background: #5a3662!important;
+}
+
+.GSYesil select {
+    background-color: #70b879!important;
+}
+
+.GSYesil .veriInput {
+    background: #70b879!important;
+}
+
+.GSYesil #GShesapla, .GSYesil .GSDetay {
+    background: #519759!important;
+}
+
+.GSMurdum select {
+    background-color: #945762!important;
+}
+
+.GSMurdum .veriInput {
+    background: #945762!important;
+}
+
+.GSMurdum #GShesapla, .GSMurdum .GSDetay {
+    background: #6b202e!important;
+}
